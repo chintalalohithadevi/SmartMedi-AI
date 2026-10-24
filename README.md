@@ -1,103 +1,71 @@
-# SmartMedi-AI
-SmartMedi AI is a Python-based web application built with Streamlit that helps users organize medication reminders in one place. It uses SQLite to store reminder details locally, so saved entries remain available when the application is restarted.
-## 📸 Dashboard Preview
-![SmartMedi AI Dashboard](screenshots/SmartMedi%20AI%20Dashboard.png)
-✨ Features
+# SmartMedi AI – Medication Reminder Management System
 
-- Add Reminders: Save a medication name, reminder time, and optional notes.
-- View Dashboard: See the total number of reminders and different medicine names.
-- Search Reminders: Find entries by medication name.
-- Edit Reminders: Update saved reminder details.
-- Delete Reminders: Remove entries that are no longer needed.
-- Persistent Storage: Store reminder data in a local SQLite database.
-- Interactive Interface: Use a simple, user-friendly Streamlit dashboard.
+An interactive web application built with Python and Streamlit to help users organize and manage medication reminders.
 
-🛠️ Technologies Used
+## 🚀 Live Demo
 
-- Python
-- Streamlit
-- SQLite
-- Pandas
-- Git and GitHub
+**Try the application here:**  
+👉 https://smartmedi-ai.streamlit.app/
 
-📁 Project Structure
+## 📸 Application Dashboard
 
-SmartMedi-AI/
-├── app.py
-├── requirements.txt
-├── .gitignore
-└── README.md
+![SmartMedi AI Dashboard](SmartMedi%20AI%20Dashboard.png)
 
-The "smartmedi.db" database file is created locally when the application runs. The ".venv" virtual environment is also stored locally and is not required in the GitHub repository.
+## ✨ Features
 
-⚙️ Installation and Setup
+- Add medication reminder entries
+- View and manage reminders
+- Search for reminder entries
+- Edit and delete existing entries
+- Dashboard with summary metrics
+- SQLite database integration for local data storage
+- User-friendly interface with a dark navy and teal theme
 
-Prerequisites
+## 🛠️ Technologies Used
 
-Install Python and Git on your computer.
+- **Python** – Application logic
+- **Streamlit** – Web application interface
+- **Pandas** – Data handling
+- **SQLite** – Database storage
+- **Git and GitHub** – Version control and project hosting
+- **Streamlit Community Cloud** – Application deployment
 
-1. Clone the repository
+## 💻 Run the Project Locally
 
+### 1. Clone the repository
+
+```bash
 git clone https://github.com/chintalalohithadevi/SmartMedi-AI.git
+```
 
-2. Open the project folder
+### 2. Open the project folder
 
+```bash
 cd SmartMedi-AI
+```
 
-3. Create a virtual environment
+### 3. Install dependencies
 
-python -m venv .venv
+```bash
+pip install -r requirements.txt
+```
 
-4. Activate the virtual environment
+### 4. Run the application
 
-Windows PowerShell:
+```bash
+streamlit run app.py
+```
 
-.\.venv\Scripts\Activate.ps1
+## 🎯 Project Objective
 
-5. Install the required packages
+The objective of SmartMedi AI is to provide a simple interface for organizing medication reminder information while demonstrating practical skills in Python development, database integration, dashboard creation, and cloud deployment.
 
-python -m pip install -r requirements.txt
+## 👩‍💻 Developer
 
-6. Run the application
+**Chintala Lohitha Devi**
 
-python -m streamlit run app.py
+GitHub: [chintalalohithadevi](https://github.com/chintalalohithadevi)
 
-Open the local URL displayed in your terminal to access the dashboard.
+## ⚠️ Note
 
-🗄️ Database
-
-SmartMedi AI uses SQLite for local data storage.
-
-- Reminder details are saved in the "smartmedi.db" file.
-- Saved entries persist across application restarts when the same database file is used.
-- The database is created locally and should not be committed to GitHub.
-
-🎯 Project Objectives
-
-- Simplify the organization of medication reminders.
-- Practice Python application development.
-- Understand database operations using SQLite.
-- Build an interactive dashboard using Streamlit.
-- Apply software development and GitHub version-control skills.
-
-🚀 Future Enhancements
-
-- Optional notification integration.
-- Calendar-based reminder views.
-- Improved dashboard analytics.
-- Export and backup functionality.
-- AI-assisted features, if added and tested in a future version.
-
-👩‍💻 Author
-
-Chintala Lohitha Devi
-
-GitHub: "@chintalalohithadevi" (https://github.com/chintalalohithadevi)
-
-⚠️ Important Note
-
-This project is a learning and demonstration application for organizing reminder information. It does not currently send notifications, provide medical advice, or determine medication dosages. Follow instructions from a qualified healthcare professional for medication use.
-
----
-
-⭐ If you find this project useful, feel free to explore the code and share feedback.
+This is an educational project for managing reminder entries. It does not send automatic notifications or provide medical advice. Cloud data persistence depends on the configured storage solution.
