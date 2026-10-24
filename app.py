@@ -10,6 +10,72 @@ st.set_page_config(
     page_icon="💊",
     layout="wide"
 )
+# CLEAN DARK BLUE AND TEAL THEME
+st.markdown("""
+<style>
+    .stApp {
+        background-color: #101827;
+        color: #e5edf7;
+    }
+
+    h1, h2, h3 {
+        color: #5eead4 !important;
+        font-weight: 700;
+    }
+
+    p, label, [data-testid="stMarkdownContainer"] {
+        color: #d6e1ef;
+    }
+
+    [data-testid="stMetric"] {
+        background-color: #182438;
+        border: 1px solid #2b3b52;
+        padding: 16px;
+        border-radius: 12px;
+        box-shadow: none;
+    }
+
+    [data-testid="stMetricLabel"] {
+        color: #9fb1c8 !important;
+    }
+
+    [data-testid="stMetricValue"] {
+        color: #5eead4 !important;
+        font-weight: 700;
+    }
+
+    div.stButton > button,
+    div.stFormSubmitButton > button {
+        background-color: #0f766e;
+        color: #ffffff;
+        border: 1px solid #2dd4bf;
+        border-radius: 8px;
+        font-weight: 600;
+    }
+
+    div.stButton > button:hover,
+    div.stFormSubmitButton > button:hover {
+        background-color: #115e59;
+        color: #ffffff;
+        border: 1px solid #5eead4;
+    }
+
+    [data-baseweb="input"] input,
+    [data-baseweb="textarea"] textarea {
+        background-color: #182438;
+        color: #f1f5f9;
+    }
+
+    [data-testid="stDataFrame"] {
+        border: 1px solid #2b3b52;
+        border-radius: 10px;
+    }
+
+    hr {
+        border-color: #2b3b52;
+    }
+</style>
+""", unsafe_allow_html=True)
 
 
 # DATABASE SETUP

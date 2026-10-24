@@ -1,10 +1,7 @@
 # SmartMedi-AI
-💊 SmartMedi AI
-
-Smart Medication Reminder Dashboard
-
 SmartMedi AI is a Python-based web application built with Streamlit that helps users organize medication reminders in one place. It uses SQLite to store reminder details locally, so saved entries remain available when the application is restarted.
-
+## 📸 Dashboard Preview
+![SmartMedi AI Dashboard](screenshots/SmartMedi%20AI%20Dashboard.png)
 ✨ Features
 
 - Add Reminders: Save a medication name, reminder time, and optional notes.
